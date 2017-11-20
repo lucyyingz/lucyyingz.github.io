@@ -16,6 +16,10 @@ aboutme.html
 </head>
 
 <style>
+
+p {
+    text-align: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -82,15 +86,37 @@ li.dropdown {
 
 <body>
 	
- <ul class="nav nav-pills nav-justified"> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Lucy Zhu</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About me<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Positions of Responsibility</a></li>
+        </ul>
+      </li>
+      <li><a href="#">References</a></li>
+      <li><a href="#">Contact Details</a></li>
+      <li><a href="#">Summary Page</a></li>
+    </ul>
+  </div>
+</nav>
 
- 		<li role="presentation"><a href="index.html">Home</a></li>
- 		<li role="presentation" class="active"><a href="aboutme.html">About Me</a></li>
-  		<li role="presentation"><a href="quotesandreferences.html">Quotes and References</a></li>
-  		<li role="presentation"><a href="contactdetails.html">Contact Details</a></li>
-  		<li role="presentation"><a href="summmarypage.html">Summary Page</a></li>
+<h1> About Me </h1>
 
- </ul>
+<p> blah blah blah blah </p>
+
+<div> Education </div>
+
+<div> Experience </div>
+
+
+
 
 
 </body>
