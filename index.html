@@ -16,6 +16,10 @@
 
 <style>
 
+.btn-circle {
+  border-radius: 100%;
+}
+
 img {
   padding: 8px;
 }
@@ -24,7 +28,8 @@ img {
 	border-radius: 100%
 	padding: 100px 100px;
 	float:right;
-
+shape-rendering: round;
+color:white;
 }
 
 h1 {
@@ -121,6 +126,41 @@ li.dropdown {
     display: block;
 }
 
+.row {
+  color: white;
+}
+
+.round-button {
+  width:25%;
+}
+.round-button-circle {
+  width: 100%;
+  height:0;
+  padding-bottom: 100%;
+    border-radius: 50%;
+  border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+}
+
+.round-button a {
+    display:block;
+  float:left;
+  width:100%;
+  padding-top:50%;
+    padding-bottom:50%;
+  line-height:1em;
+  margin-top:-0.5em;
+    
+  text-align:center;
+  color:#e2eaf3;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
 </style>
 
 <body>
@@ -208,26 +248,30 @@ li.dropdown {
  -->
 <h1>Lucy Zhu</h1>
 
-
+<!--
 <div class="row">
-  <div class="col-md-3"><button type="button" class="btn btn-info"><a href="aboutme.html#education">Education</a></button>
+  <div class="col-md-3"><button type="button" class="btn btn-success btn-round btn-lg"><a href="aboutme.html#education">Education</a></button>
 </div>
 
 <div class="row">
-  <div class="col-md-4 col-md-offset-3"><button type="button" class="btn btn-info"><a href="aboutme.html#experience">Experience</a></button>
+  <div class="col-md-4 col-md-offset-3"><button type="button" class="btn btn-warning btn-lg"><a href="aboutme.html#experience">Experience</a></button>
 </div>
-
-
+-->
+  <img src="matriculation.png" style="width:280px;height:270px;">
   <img src="GN9C6432.png" style="width:250px;height:270px;">
+  <img src="varsity.png" style="width:280px;height:270px;">
+
+<!-- <div class="row">
+  <div class="col-md-3">
+  <button type="button" class="btn btn-info btn-lg"><a href="aboutme.html#positions" class="round-button">Positions</a>
+</div> </div> 
 
 <div class="row">
-  <div class="col-md-3"><button type="button" class="btn btn-info"><a href="aboutme.html#positions">Positions</a></button>
+  <div class="col-md-4 col-md-offset-3"><button type="button" class="btn btn-default"><a href="aboutme.html#skills">Skills</a></button>
+</div>
 </div>
 
-<div class="row">
-  <div class="col-md-4 col-md-offset-3"><button type="button" class="btn btn-info"><a href="aboutme.html#skills">Skills</a></button>
-</div>
-</div>
+-->
 
 <p> Hi! I'm Lucy Zhu, </p>
 <p>a PPE student at the University of Oxford learning to code by building this online CV  </p>
