@@ -119,8 +119,37 @@ li.dropdown {
 <body>
 
 
-
+  <nav class="navbar navbar-default navbar-fixed-top">
   <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Lucy Zhu</a>
+      </div>
+      <ul class="nav navbar-nav">
+       <li class="active"> <a href="index.html">Home</a></li>
+        <li class="dropdown">
+         <li ><a class="dropdown-toggle" data-toggle="dropdown" href="aboutme.html">
+          About me
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="aboutme.html#education">Education</a></li>
+          <li><a href="aboutme.html#experience">Experience</a></li>
+          <li><a href="aboutme.html#positions">Positions of Responsibility</a></li>
+          <li><a href="aboutme.html#skills">Skills</a></li>
+        </ul>
+      </li>
+      <li><a href="quotesandreferences.html">References</a></li>
+      <li><a href="contactdetails.html">Get in Contact</a></li>
+      <li><a href="summarypage.html">Summary Page</a></li>
+    </ul>
+  </div>
+</nav>
+</nav>
+
+
+ <!-- <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Lucy Zhu</a>
@@ -142,7 +171,7 @@ li.dropdown {
       <li><a href="summarypage.html">Summary Page</a></li>
     </ul>
   </div>
-</nav>
+</nav> -->
 	
 
 <!-- <nav class="navbar navbar-inverse">
@@ -191,9 +220,23 @@ li.dropdown {
 <p> Hi! I'm Lucy Zhu, </p>
 <p>a PPE student at the University of Oxford learning to code by building this online CV  </p>
 <p> Say hello!</p>
-<input type="email" placeholder="Your email">
-<input type="submit">
 
+<div id="forms">
+    <form class="form">
+
+        <p class="name">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+        
+        <class="email">
+            <input type="text" name="email" id="email" placeholder="mail@example.com" />
+
+        <p class="submit">
+            <input type="submit" value="Send" />
+        </p>
+      </class="email">
+    </p>
+    </form>
+</div>
 
 </body>
 
