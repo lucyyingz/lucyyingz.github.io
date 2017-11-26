@@ -8,26 +8,42 @@
 <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
 <script src="jquery-3.2.1.js"></script>
  <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
   <title> Lucy Zhu: About Me </title>
 
 
 </head>
 
+
 <style>
+
+
+h3{
+  text-align: left;
+}
+
+.intro {
+  padding-left: 30px;
+}
+
+.skills {
+  padding: 0px;
+}
 
 h1 {
   color: black;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   text-align: left;
   padding-left: 30px;
-  padding-top: 80px;
+  padding-top: 70px;
+  padding-bottom: 10px;
 }
 
 h2 {
   color: black
 }
+
 
 body {
       text-align: center;
@@ -36,15 +52,16 @@ body {
       background-position: center;
       color: #black;
        font-family: 'Open Sans', sans-serif;
-       padding-top: 70px;
+       padding-top: 20px;
 
     }
 
 p {
-  text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 20px;
   padding-bottom: 20px;
+  font-size: 15px;
 }
 ul {
   list-style-type: none;
@@ -53,6 +70,10 @@ ul {
   background-color: #333;
 }
 
+li {
+  text-align: left;
+  padding-bottom: 10px;
+}
 
 li a {
   display: block;
@@ -143,7 +164,7 @@ li.dropdown {
 
 <h1> About Me </h1>
 
-<div>
+<div class="intro">
 
   <p> I am a 3rd year student studying Philosophy, Politics and Economics at the University of Oxford. In my degree I am specialising in philosophy (Metaphysics, Epistemology, Ethics and Sartre) and economics (Microeconomics, Macroeconomics and Quantitative economics). </p>
   <p> Outside of that through Code:First I've picked up some front-end development skills and am practising them by building this website from scratch using html, css, java, jquery and twitter bootstrap.  Having worked at leading proptech startup WiredScore and helped launch app startup Compass I am committed to engaging further in coding and learn some back-end development so that I can become a fully fledged software developer.</p>
@@ -204,33 +225,38 @@ li.dropdown {
 <div class="container">
   <div class="row">
   
+   <div class="col-md-7">
+      <div class="thumbnail">
+        <a href="http://www.ox.ac.uk/" target="_blank">
+          <img src="uni_crest.gif" alt="university" style="width:100%">
+        </a>
+          <div class="caption">
+            <p>I am in my third year at Lincoln College, University of Oxford studying PPE. I have specialised in Philosophy and Economics and am passionate about both. </p>
+            <p> In economics I am learning Microeconomics, Macroeconomics and Quantitative Economics. The quantitative skills picked up through learning these have been invaluable. </p>
+            <p> In philosophy, I have studied logic, metaphysics, epistemology and existentialism. I am writing my undergraduate thesis in philosophy titled: 'Sartre and Memes: the changing reality of Bad Faith for Generation Z' on the philosophical signifance of the change in our human experience as caused by memes and the internet. </p>
+          </div>
+      </div>
+    </div>
+  
     <div class="col-md-5">
       <div class="thumbnail">
         <a href="http://www.codefirstgirls.org.uk/" target="_blank">
           <img src="Code-first-logo-new2.png" alt="coding" style="width:100%">
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>Attended a front-end web-development program learning introductions to HTML, CSS, JavaScript, jQuery, Git and Github collaberation that has enabled me to create this online CV. </p>
+            <p> This course has been the perfect introduction to coding that has allowed me to explore it alongside my studies at Oxford and has solidified my determination to learn more languages and become a web-developer </p>
           </div>
       </div>
     </div>
-    <div class="col-md-7">
-      <div class="thumbnail">
-        <a href="http://www.ox.ac.uk/" target="_blank">
-          <img src="uni_crest.gif" alt="university" style="width:100%">
-        </a>
-          <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-          </div>
-      </div>
-    </div>
+ 
       <div class="col-md-5">
       <div class="thumbnail">
         <a href="https://www.crgs.co.uk/" target="_blank">
           <img src="logocrgs.png" alt="school" style="width:100%">
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>I studied my A-levels at Colchester Royal Grammar School where I acheived A*AAA in Economics, Mathematics, History and English Literature respectively. I was also part of the Philosophy Society and Young Enterprise and a sixth form prefect. </p>
           </div>
       </div>
     </div>
@@ -245,35 +271,54 @@ li.dropdown {
 <div class="container">
   <div class="row">
   
-  <div class="col-md-7">
+  <div class="col-md-6">
       <div class="thumbnail">
         <a href="https://wiredscore.com/uk/" target="_blank">
           <img src="wiredscore-top.jpg" alt="wiredscore" style="width:100%" >
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p> June-September 2017: Intern </p>
+            <p> WiredScore is a leading global tech startup rating the connectivity of office buildings such as the Shard and the Empire State building. Inc. magazine recently ranked WiredScore No. 320 on its 36th annual Inc. 5000.
+            </p>
+            <p> The three months I spent there was for a multi-functional internship spanning business development, marketing and partnership roles.</p>
+
+            <p> Projects Completed:
+            <li> <b> Data Analysis </b> : developed advanced Excel competence reworking WiredScore’s proprietary connectivity index and its category thresholds: resdesiging a quantitative analogue for new qualitative groupings </li>
+            <li> <b>Market Analysis</b>: used business analyst’s toolkit to analyse data (occupancy rates, pricing and more) and present actionable strategic recommendations linking to previous markets and unexplored regions</li>
+            <li> <b>Marketing</b>: helped develop and implement marketing strategy for WiredScore's Ireland launch in Dublin. </li>
+            <li> <b> Blogs </b>: edited blogs on the property markets and current events in tech </li>
+          </p>
           </div>
       </div>
     </div>
 
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="thumbnail">
         <a href="http://www.tedxoxford.co.uk/" target="_blank">
           <img src="tedx.png" alt="tedx" style="width:100%">
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>September 2017-March 2018: Vice President</p>
+
+            <p>
+              As Vice President of TEDxOxford 2018 it is my job to manage the team, to align key stakeholders and maintain effective relationships with external clients, covering speakers, logistics, financiers and partnerships. 
+</p>
+          <p> As Vice President my responsibility officially lies with the logistics of the evenet and on the day of the conference I will be front of house. However, I have developed client-facing and PR skills managing relationships with speakers and their agents as well as clients because of my enjoyment in learning to do so. Something I have really appreciated about this role is the ability to get involved in whichever part of organising the conference that I was interested in and wanted to develop my skills in relation to.
+            </p>
+          
           </div>
       </div>
     </div>
 
-<div class="col-md-5">
+<div class="col-md-6">
     <div class="thumbnail">
       <a href="https://compassnews.co.uk/" target="_blank">
         <img src="iconcompass.png" alt="compassnews" style="width:100%">
        </a>
          <div class="caption">
-           <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+           <p>February-May 2017: Campus Marketing</p>
+           <p> Scaled the campus pilot of a disruptive news app combating fake news with ideological transparency, overseeing the beginnings of a nationwide news initiative.  </p>
+           <p> Created various initiatives within Oxford for marketing utilising access to student areas in libraries and common rooms as well as the popularity of memes </p>
         </div>
      </div>
 </div>    
@@ -284,7 +329,8 @@ li.dropdown {
           <img src="wadhamcollege.png" alt="wadham" style="width:100%">
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>August 2016</p>
+            <p> Mentored a-level students from disadvantaged geographical locations through the Oxford entry process and the learning process once at Oxford as part of Wadham's access program. </p>
           </div>
       </div>
     </div>
@@ -297,7 +343,8 @@ li.dropdown {
           <img src="dlt.jpg" alt="dlt" style="width:100%">
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>July-August 2016</p>
+            <p> Spent time at the DaLiTong Language school lecturing in mandarin and teaching English one-on-one and in classes to students aged between 13-23 and of English skill levels between no English and potential applicants to English-speaking universities </p>
           </div>
       </div>
     </div>
@@ -308,7 +355,8 @@ li.dropdown {
           <img src="AXA-LM-big.png" alt="axa" style="width:100%">
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>August-September 2015</p>
+            <p> Data analysis and checking in Excel to facilitate the movement to new IT systems </p>
           </div>
       </div>
 </div>
@@ -320,7 +368,8 @@ li.dropdown {
           <img src="gs.png" alt="goldmansachs" style="width:100%">
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>February 2015</p>
+            <p> Attended an A-level insight day on investment banking with workshops on risk management and portfolio building </p>
           </div>
       </div>
     </div>
@@ -336,32 +385,59 @@ li.dropdown {
 
       <div class="col-md-6">
       <div class="thumbnail">
-        <a href="https://www.lincoln.ox.ac.uk/" target="_blank">
-          <img src="lincolncollege.png" alt="lincoln" style="width:100%">
+        <a href="http://ppesoc.org/" target="_blank">
+          <img src="oxppe.png" alt="oxppe" style="width:87%">
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>January-March 2016: Secretary of Oxford PPE Society</p>
+            <p> Involved chairing meetings, researchign and contacting possible speakers and organising the logistics of events organised </p>
           </div>
       </div>
     </div>
 
       <div class="col-md-6">
       <div class="thumbnail">
-        <a href="http://ppesoc.org/" target="_blank">
-          <img src="oxppe.png" alt="oxppe" style="width:100%">
+        <a href="https://www.lincoln.ox.ac.uk/" target="_blank">
+          <img src="lincolncollege.png" alt="lincoln" style="width:100%">
         </a>
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>October 2016: Running Consent Workshops at Lincoln College</p>
+            <p>Organised and ran the consent and gender workshops at Lincoln College as part of a welfare initiative for freshers entering university to ensure the college is as safe and open environment as possible </p>
           </div>
       </div>
     </div>
+
+
 
 
 </div>
 
 <div id="skills">
 
-<h1> Skills <h1>
+
+<h1> Skills </h1>
+
+
+<div class="row">
+<div class="col-md-3">
+  <h3>Languages</h3>
+  <p> I am fluent in English (as a native speaker), and can speak Mandarin, having spoken it firstly to family and then in working as an English teacher in China to my students for a summer. </p>
+</div>
+
+<div class="col-md-3">
+  <h3>Sport</h3>
+  <p> I have played professional table tennis since the age of 13, having played for England in European tournaments, as well as remaining both U18 and Women's County champion until I was 16. More recently, I have played for the University of Oxford's Varsity team earning a half blue. </p>
+</div>
+
+<div class="col-md-3">
+  <h3>Music</h3>
+  <p> Having had interest in music from a young age, I ended up picking up the piano, violin and singing (to grades 7, 4 and 5 respectively). </p>
+</div>
+
+<div class="col-md-3">
+  <h3>Coding</h3>
+  <p> As well as learning some front-end coding at the moment, in the first year of PPE I critically analysed Lijphart’s work on democracies using regression models in R as part of the undergraduate politics module.
+</div>
 
 </div>
   </body>
